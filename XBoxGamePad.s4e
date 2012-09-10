@@ -1,0 +1,26 @@
+include:
+#include <s3eTypes.h>
+
+functions:
+s3eResult XBoxPadInit() S3E_RESULT_ERROR
+s3eResult XBoxPadUpdate() S3E_RESULT_ERROR
+bool XBoxPadIsConnected(int controller) S3E_RESULT_ERROR
+bool XBoxPadVibrate(int controller,int leftVal, int rightVal) S3E_RESULT_ERROR 
+double XBoxPadXAxisL(int controller) S3E_RESULT_ERROR 
+double XBoxPadYAxisL(int controller) S3E_RESULT_ERROR 
+double XBoxPadXAxisR(int controller) S3E_RESULT_ERROR 
+double XBoxPadYAxisR(int controller) S3E_RESULT_ERROR 
+double XBoxPadXDPad(int controller) S3E_RESULT_ERROR 
+double XBoxPadYDPad(int controller) S3E_RESULT_ERROR
+bool XBoxPadLeftThumb(int controller) S3E_RESULT_ERROR 
+bool XBoxPadRightThumb(int controller) S3E_RESULT_ERROR 
+bool XBoxPadAButton(int controller) S3E_RESULT_ERROR 
+bool XBoxPadBButton(int controller) S3E_RESULT_ERROR 
+bool XBoxPadXButton(int controller) S3E_RESULT_ERROR 
+bool XBoxPadYButton(int controller) S3E_RESULT_ERROR 
+bool XBoxPadLeftShoulder(int controller) S3E_RESULT_ERROR 
+bool XBoxPadRightShoulder(int controller) S3E_RESULT_ERROR 
+bool XBoxPadStartButton(int controller) S3E_RESULT_ERROR 
+bool XBoxPadBackButton(int controller) S3E_RESULT_ERROR 
+double XBoxPadLeftTrigger(int controller) S3E_RESULT_ERROR 
+double XBoxPadRightTrigger(int controller) S3E_RESULT_ERROR 
